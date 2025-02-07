@@ -78,6 +78,9 @@ FOX_USE_LZ4_BINARY := 1
 FOX_EXCLUDE_NANO_EDITOR := 1
 FOX_USE_NANO_EDITOR := 1
 
+# Magisk (Magisk does not work on vivo)
+FOX_DELETE_MAGISK_ADDON := 1
+
 # Binaries
 FOX_USE_BASH_SHELL := 1
 FOX_ASH_IS_BASH := 1
