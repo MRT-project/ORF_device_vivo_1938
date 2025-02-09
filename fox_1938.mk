@@ -80,9 +80,6 @@ FOX_USE_NANO_EDITOR := 1
 # Magisk (Magisk does not work on vivo)
 FOX_DELETE_MAGISK_ADDON := 1
 
-# Use lzma on ramdisk compression
-OF_USE_LZMA_COMPRESSION := 1
-
 # Binaries
 FOX_USE_BASH_SHELL := 1
 FOX_ASH_IS_BASH := 1
