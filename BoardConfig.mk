@@ -134,6 +134,9 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 TW_INCLUDE_CRYPTO := true
 TW_USE_FSCRYPT_POLICY := 1
 
+# Hardware
+BOARD_USES_MTK_HARDWARE := true
+
 # TWRP specific build flags
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
