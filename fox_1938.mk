@@ -80,6 +80,9 @@ FOX_USE_NANO_EDITOR := 1
 # Magisk (Magisk does not work on vivo)
 FOX_DELETE_MAGISK_ADDON := 1
 
+# some mtk devices will need this, consequent upon recent build system commits
+OF_FORCE_USE_RECOVERY_FSTAB := 1
+
 # Binaries
 FOX_USE_BASH_SHELL := 1
 FOX_ASH_IS_BASH := 1

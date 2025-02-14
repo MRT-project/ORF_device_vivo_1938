@@ -4,7 +4,6 @@
 /cache            ext4     /dev/block/platform/bootdevice/by-name/cache         flags=display="Cache";wipeingui
 /dtbo             emmc     /dev/block/platform/bootdevice/by-name/dtbo          flags=backup=1;display="DTBO";flashimg=1
 /persist          ext4     /dev/block/platform/bootdevice/by-name/persist       flags=display="Persist"
-/storage       	  ext4     /data/media/0                  		       flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
 
 # Vbmeta
 /vbmeta           emmc     /dev/block/platform/bootdevice/by-name/vbmeta        flags=backup=1;display="VBMeta";flashimg=1
