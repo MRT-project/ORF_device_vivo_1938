@@ -23,6 +23,9 @@
 # maintainer
 OF_MAINTAINER := AnGgIt86 M•R•T
 
+# Version of orangefox recovery
+FOX_VERSION := R11.1
+
 # screen
 OF_SCREEN_H := 2340
 OF_STATUS_H := 125
