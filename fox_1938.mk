@@ -51,7 +51,7 @@ OF_PATCH_AVB20 := 1
 OF_SUPPORT_VBMETA_AVB2_PATCHING := 1
 
 # quick backup defaults
-OF_QUICK_BACKUP_LIST := /boot;/data;/system_image;/vendor_image;
+OF_QUICK_BACKUP_LIST := /boot;/data;/system_image;/vendor_image;/product_image;
 
 # necessary to decrypt most begonia ROMs (trigger "TW_PREPARE_DATA_MEDIA_EARLY")
 OF_FIX_DECRYPTION_ON_DATA_MEDIA := 1
