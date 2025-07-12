@@ -23,8 +23,8 @@
 # maintainer
 OF_MAINTAINER := AnGgIt86 M•R•T
 
-# Version of orangefox recovery
-FOX_VERSION := R11.1
+# Version of orangefox recovery automatic
+FOX_MAINTAINER_PATCH_VERSION := 1
 
 # screen
 OF_SCREEN_H := 2340
@@ -49,6 +49,9 @@ OF_PATCH_AVB20 := 1
 
 # support disabling avb2.0 by patching vbmeta/vbmeta_system
 OF_SUPPORT_VBMETA_AVB2_PATCHING := 1
+
+# all partition tools - filter, and support TW_ENABLE_ALL_PARTITION_T
+OF_ENABLE_ALL_PARTITION_TOOLS := 1
 
 # quick backup defaults
 OF_QUICK_BACKUP_LIST := /boot;/data;/system_image;/vendor_image;/product_image;
@@ -82,6 +85,7 @@ FOX_USE_NANO_EDITOR := 1
 
 # Magisk (Magisk does not work on vivo)
 FOX_DELETE_MAGISK_ADDON := 1
+FOX_MOVE_MAGISK_INSTALLER_TO_RAMDISK := 1
 
 # some mtk devices will need this, consequent upon recent build system commits
 OF_FORCE_USE_RECOVERY_FSTAB := 1
