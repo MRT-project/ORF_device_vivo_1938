@@ -85,7 +85,9 @@ FOX_USE_NANO_EDITOR := 1
 
 # Magisk (Magisk does not work on vivo)
 FOX_DELETE_MAGISK_ADDON := 1
-FOX_MOVE_MAGISK_INSTALLER_TO_RAMDISK := 1
+
+# whether to use the updated magiskboot
+FOX_USE_UPDATED_MAGISKBOOT := 1
 
 # some mtk devices will need this, consequent upon recent build system commits
 OF_FORCE_USE_RECOVERY_FSTAB := 1
