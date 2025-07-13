@@ -56,7 +56,7 @@ OF_ENABLE_ALL_PARTITION_TOOLS := 1
 # quick backup defaults
 OF_QUICK_BACKUP_LIST := /boot;/data;/system_image;/vendor_image;/product_image;
 
-# necessary to decrypt most begonia ROMs (trigger "TW_PREPARE_DATA_MEDIA_EARLY")
+# avoid decryption problems on some devices and ROMs
 OF_FIX_DECRYPTION_ON_DATA_MEDIA := 1
 
 # ensure that /sdcard is bind-unmounted before f2fs data repair or format
