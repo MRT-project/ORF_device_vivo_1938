@@ -89,6 +89,9 @@ FOX_DELETE_MAGISK_ADDON := 1
 # whether to use the updated magiskboot
 FOX_USE_UPDATED_MAGISKBOOT := 1
 
+# enable vbmeta patch in magiskboot 24+
+FOX_PATCH_VBMETA_FLAG := 1
+
 # some mtk devices will need this, consequent upon recent build system commits
 OF_FORCE_USE_RECOVERY_FSTAB := 1
 
